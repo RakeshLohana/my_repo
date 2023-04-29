@@ -42,6 +42,9 @@ const Navbar = () => {
           <li className="nav-item">
             <Link style={{color:"black"}} className={ location.pathname=='/blog'?'nav-link active':'nav-link'} to='/blog'>Blog</Link>
           </li>
+          <li className="nav-item">
+            <Link style={{color:"black"}} className={ location.pathname=='/gallery'?'nav-link active':'nav-link'} to='/gallery'>Gallery</Link>
+          </li>
         </ul>
       </div>
     </div>

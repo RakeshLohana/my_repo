@@ -52,7 +52,7 @@ console.log(res.text)
             <span
             ><img className="callme" src={mail} alt="" />
               <h4>Email:</h4>
-              <p>acmneduet@gmail.com</p>
+              <p>studentcoding@gmail.com</p>
               <p></p
               ></span>
 

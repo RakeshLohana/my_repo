@@ -6,18 +6,12 @@ import img2 from './image/img2.jpeg'
 
 export default function Aboutus() {
   return (
-    
-  
     <div className='about-section'>
       <div id="about">
     <h1>About Us</h1>
     <h3>Let us Know who we are</h3>
   </div>
    
-
-    
-
-
   <section className='container' >
 
 
@@ -64,26 +58,7 @@ export default function Aboutus() {
       </div>
     </div>
   </section>
-
- 
- 
-   
     </div>
-
-
- 
-  
-
-   
-    
-
-
- 
-
-    
-  
-      
-
     
   )
 }
