@@ -18,29 +18,8 @@ const PreviousEvents=[
 ]
 const Sponsors=[
   { id:1,
-    category:"Platinum",
+
     image:'images/Sponsos/s_1.jpg'
-  },
-  { id:5,
-    category:"Gold",
-    image:'images/Sponsos/s_6.jpg'
-  },
-  { id:2,
-    category:"Silver",
-    image:'images/Sponsos/s_2.jpg'
-  },  
-  { id:3,
-    category:"",
-    image:'images/Sponsos/s_3.jpg'
-  },
-  { id:4,
-    category:"",
-    image:'images/Sponsos/s_4.png'
-  },
- 
-  { id:6,
-    category:"",
-    image:'images/Sponsos/s_7.jpg'
   },
  
   ]
@@ -54,7 +33,7 @@ const Itec = () => {
   <div className="container">
       <div className="row">
   <div className="col-lg-5 col-md-6">
-<h1>Web Kode'23</h1>
+<h1>Game Jam'23</h1>
 <p>Get ready to showcase your coding prowess and win big prizes.Hurry-Up get Register for our competition today!</p>
   </div>
 <div className="mt-4">
@@ -74,8 +53,12 @@ const Itec = () => {
 {UpcomingEvents.map((ele)=>{
 return(
  <div key={ele.id} className="col-lg-5 col-md-10 col-sm-10 offset-md-1">
- <div className="card mt-5 p-3 mx-auto manon ">
+ <div className="card mt-5 p-4 mx-auto manon ">
   <img src={ele.image} className="card-img-top" alt="..."/>
+
+  <div className='text-center'>
+<a  className='main-btn text-decoration-none' href='https://forms.gle/sTNfdyiKaqm8WruS8'  target='_blank'> Register Now </a>
+</div>
 
 </div>
   </div>
@@ -102,11 +85,9 @@ return(
 {OngoingEvents.map((ele)=>{
 return(
  <div key={ele.id} className="col-lg-5 col-md-10 col-sm-10 offset-md-1">
- <div className="card mt-5 p-3 mx-auto manon ">
+ <div className="card mt-5 p-4 mx-auto manon ">
   <img src={ele.image} className="card-img-top" alt="..."/>
-<div className='text-center'>
-<a  className='main-btn text-decoration-none' href='https://forms.gle/sTNfdyiKaqm8WruS8'  target='_blank'> Register Now </a>
-</div>
+
  
   
 </div>
@@ -130,11 +111,8 @@ return(
 {PreviousEvents.map((ele)=>{
 return(
  <div key={ele.id} className="col-lg-5 col-md-10 col-sm-10 offset-md-1">
- <div className="card mt-5 p-3 mx-auto manon ">
+ <div className="card mt-5 p-4 mx-auto manon ">
   <img src={ele.image} className="card-img-top" alt="..."/>
-<div className='text-center'>
-<a  className='main-btn text-decoration-none' href='https://forms.gle/sTNfdyiKaqm8WruS8'  target='_blank'> Register Now </a>
-</div>
  
   
 </div>
@@ -162,12 +140,37 @@ return(
 <div className="row">
 {Sponsors.map((ele)=>{
 return(
- <div className="col-lg-2 col-md-4 col-sm-6">
- <div className="card border-0 mx-auto " style={{width: "12rem"}}>
-  <img src={ele.image} className="card-img-top" alt="..."/>
-  <p className='text-danger' >{ele.category}</p>
+ <div >
+  <section className='container' >
+
+
+<div class="about-pg-boxes container-fluid">
+  <div className="row">
+
+    <div className="about-pg-pic col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <img className='about2' src={ele.image}   alt=""/>
+    </div>
+
+    <div className="about-pg-details first-txt col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <section>
+<div className="contact-hd container about-hd">
+  <h1>Octdaily
+  </h1>
+</div >
+</section>
+      <p>From improving your content to transforming the face of your business, streamlining processes, managing customer relations, and using data analytics to better understand trends; OctDaily helps you scale the business world with one cool technology daily.</p>
+      <div className="mt-4">
+  <a  href='https://octdaily.com/' target='_blank' className="main-btn">Vist Website</a>
+ 
+</div>
+    </div>
+  </div>
   
 </div>
+
+</section>
+
+
   </div>
 
 
@@ -175,10 +178,6 @@ return(
 })}
  
 </div>
-
-
-
-
 
 </div>
   

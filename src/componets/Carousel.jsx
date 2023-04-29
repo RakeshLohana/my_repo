@@ -26,7 +26,7 @@ export default function Carousel() {
       <img src={Image1} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block  carousel_section_center ">
         <h2>Welcome to our Coding Club </h2>
-        <p>WE BELIVEIN INOVATION</p>
+        <p>WE BELIVE IN INOVATION</p>
      
         <Link to='/blog' className="btn btn-danger">Blog</Link>
 

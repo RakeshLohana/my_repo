@@ -27,10 +27,9 @@ console.log(res.text)
       <section>
         <div className="contact-hd container">
           <div>
-            <h1 >Get in <color className="contact-hd"> touch </color></h1>
+            <h1 >Contact <color className="contact-hd"> us </color></h1>
             <p>
-              We are here for you, Any FAQs then ask us. Our team give you an
-              immediate response.
+            Our team is available to provide you with immediate assistance for any query.Please do not hesitate to reach out to us.
             </p>
           </div>
 
@@ -64,7 +63,6 @@ console.log(res.text)
          
           </div>
           <div className="inputs col-sm-12 col-md-7 col-lg-7 col-xl-7">
-          {/* action="mailto:haseebullahmemon33@gmail.com" method='POST' */}
             <form  onSubmit={SendEmail}  >
 
               <input type="text" name='name' className="name-inp" placeholder="Your Name" required />
