@@ -10,6 +10,7 @@ import Navbar from './componets/Navbar';
 import Footer from  './componets/Contact/Footer'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import BlogPost from './blogpost';
+import Leaderboard from './Gallery';
 function App() {
   return (<>
  <Navbar/>
