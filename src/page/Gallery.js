@@ -70,7 +70,19 @@ const Gallery = () => {
   };
 
   return (
+    
     <div className="gallery-container">
+       <h1
+        style={{
+          margin: "70px 0  ",
+          fontSize: "50px",
+          textAlign: "center",
+          color: "rgb(153, 0, 0)",
+          fontWeight: "50",
+        }}
+      >
+        SOME GLIMPSE OF OUR PAST EVENTS 
+      </h1>
       <h2 className="gallery-heading">Photo Gallery</h2>
       <div className={`gallery-overlay ${isZoomed ? 'zoomed' : ''}`}>
         <div
