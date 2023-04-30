@@ -40,8 +40,10 @@ const Leaderboard = () => {
   ];
 
   return (
-    <div className="leaderboard">
-      <h2 >Winners of Past Events</h2>
+    <div className="container" style={{marginTop:'120px'}}>
+        
+    <div className="leaderboard row " >
+    <h2 >Winners of Past Events</h2>
       <table>
         <thead>
           <tr>
@@ -70,6 +72,7 @@ const Leaderboard = () => {
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 };

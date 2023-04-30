@@ -6,58 +6,17 @@ const Teams = () => {
     <div style={{marginTop:'100px'}}>
       <h1
         style={{
-          fontSize: "60px",
+          fontSize: "50px",
           textAlign: "center",
           color: "rgb(153, 0, 0)",
-          letterSpacing: "10px",
+          letterSpacing: "5px",
         }}
       >
-        COMPLETE TEAM
+        MEET OUR TEAM
       </h1>
-      <p
-        style={{
-          marginTop: "30px",
-          fontSize: "20px",
-          textAlign: "center",
-          color: "#000",
-          fontWeight: "bold",
-          fontFamily: "Arial",
-        }}
-      >
-        Meet Our Complete Team
-      </p>
-      {/* EXECUTIVE BODY  */}
-      <h1
-        style={{
-          marginTop: "70px",
-          fontSize: "40px",
-          textAlign: "center",
-          color: "rgb(153, 0, 0)",
-          fontWeight: "50",
-        }}
-      >
-        EXECUTIVE BODY
-      </h1>
-
-      <div style={{ marginTop: "80px" }}>
+      <div style={{ marginTop: "20px" }}>
         <ExCards />
       </div>
-      {/* DIRECTORATE  */}
-      {/* <h1
-        style={{
-          marginTop: "70px",
-          fontSize: "40px",
-          textAlign: "center",
-          color: "#122973",
-          fontWeight: "50",
-        }}
-      >
-        DIRECTORATE
-      </h1>
-
-      <div style={{ marginTop: "80px" }}>
-        <DirCards />
-      </div> */}
     </div>
   );
 };

@@ -24,31 +24,6 @@ const detail = [
     name: "MUHAMMMAD USMAN",
     post: "Treasurer",
     imageURL:"images/Directorate/p7.jpg",
-  },
-  {
-    name: "KHURRAM MERAJ",
-    post: "Chair Memberships",
-    imageURL: "images/Directorate/p4.jpg",
-  },
-  {
-    name: "ABDUL SUBHAN",
-    post: "Chair Logistics",
-    imageURL: "images/Directorate/p5.jpg",
-  },
-  {
-    name: "SYED AUN HASHMI",
-    post: "Web master/Chair Technical",
-    imageURL:"images/Directorate/p6.jpg",
-  },
-  {
-    name: "SYED MUHAMMAD MUNEEB",
-    post: "Chair Events",
-    imageURL: "images/Directorate/p8.jpg",
-  },
-  {
-    name: "TAZMEEN FATIMA",
-    post: "Chair Academics",
-    imageURL:"images/Directorate/p9.jpg",
   }
 ];
 

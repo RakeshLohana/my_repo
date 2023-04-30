@@ -32,7 +32,7 @@ const footer = () => {
         <Link to='/itec' className="footer-para">Events</Link> <br />
         <Link to='/blog' className="footer-para">Blogs</Link> <br />
         <Link to='/gallery' className="footer-para">Gallery</Link> <br />
-        <Link to='/' className="footer-para">Contact Details</Link> <br />
+        <Link to='/leaderboard' className="footer-para">Leader Board</Link> <br />
       </div>
     
     </div>
