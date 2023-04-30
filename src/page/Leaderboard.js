@@ -44,7 +44,7 @@ const Leaderboard = () => {
         
     <div className="leaderboard row " >
     <h2 >Winners of Past Events</h2>
-      <table>
+      <table    >
         <thead>
           <tr>
             <th>Rank</th>
