@@ -45,6 +45,9 @@ const Navbar = () => {
           <li className="nav-item">
             <Link style={{color:"black"}} className={ location.pathname=='/gallery'?'nav-link active':'nav-link'} to='/gallery'>Gallery</Link>
           </li>
+          <li className="nav-item">
+            <Link style={{color:"black"}} className={ location.pathname=='/leaderboard'?'nav-link active':'nav-link'} to='/leaderboard'>Leader Board</Link>
+          </li>
         </ul>
       </div>
     </div>

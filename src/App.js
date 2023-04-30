@@ -10,7 +10,7 @@ import Navbar from './componets/Navbar';
 import Footer from  './componets/Contact/Footer'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import BlogPost from './blogpost';
-import Leaderboard from './Gallery';
+import Leaderboard from './page/Leaderboard';
 function App() {
   return (<>
  <Navbar/>
@@ -21,6 +21,8 @@ function App() {
 <Route path='/itec' element={<Itec/>} />
 <Route path='/team' element={<Team/>} /> 
 <Route path='/gallery' element={<Gallery/>} /> 
+<Route path='/leaderboard' element={<Leaderboard/>} /> 
+
     </Routes>
     <Footer/>
     </>

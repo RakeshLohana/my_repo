@@ -13,8 +13,6 @@ console.log(res.text)
     })  
   }
 
-
-
   return (<div>
 
     {/* 
@@ -29,7 +27,7 @@ console.log(res.text)
           <div>
             <h1 >Contact <color className="contact-hd"> us </color></h1>
             <p>
-            Our team is available to provide you with immediate assistance for any query.Please do not hesitate to reach out to us.
+            Thank you for your interest in our website! We welcome your comments, feedback, and questions. Please fill out the form below to contact us. Our team will get back to you as soon as possible.
             </p>
           </div>
 

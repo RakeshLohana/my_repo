@@ -218,6 +218,7 @@ text-align: center;
 /* CONTACT FORM END */
 
 
+
 .navigation-wrap{
   position: fixed;
   width: 100%;
@@ -243,8 +244,12 @@ text-align: center;
   letter-spacing: 1px;
   cursor: pointer;
 }
+
 .nav-link:hover{
-  color: rgb(77, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(200, 0, 0) !important;
+
 }
 .navigation-wrap .main-btn{
   padding: 0.3125rem 1.475rem;
