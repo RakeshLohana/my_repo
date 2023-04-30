@@ -9,13 +9,14 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import Navbar from './componets/Navbar';
 import Footer from  './componets/Contact/Footer'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import BlogPost from './blogpost';
 function App() {
   return (<>
  <Navbar/>
 
     <Routes>
 <Route  path='/' element={<Home/>} />
-<Route path='/blog' element={<Blog/>} />
+<Route path='/blog' element={<BlogPost/>} />
 <Route path='/itec' element={<Itec/>} />
 <Route path='/team' element={<Team/>} /> 
 <Route path='/gallery' element={<Gallery/>} /> 
