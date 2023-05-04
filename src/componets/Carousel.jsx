@@ -29,7 +29,7 @@ export default function Carousel() {
         <p>WE BELIVE IN INOVATION</p>
      
         {/* <Link to='/blog' className="btn btn-danger">Blog</Link> */}
-        <a href='' className='btn btn-danger'>JOIN OUR TEAM</a>
+        <a href='https://forms.gle/3gMEdXo3xxQmrZkm7' className='btn btn-danger'>JOIN OUR TEAM</a>
       </div>
     </div>
     <div className="carousel-item pickgradient">

@@ -21,7 +21,7 @@ const detail = [
   {
     name: "ALI NADEEM",
     post: "MEMBER",
-    imageURL:"images/Directorate/p7.jpg",
+    imageURL:"images/Directorate/p4.jpeg",
   }
 ];
 

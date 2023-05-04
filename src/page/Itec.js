@@ -48,7 +48,7 @@ const Itec = () => {
                   <p>Get ready to showcase your coding prowess and win big prizes.Hurry-Up get Register for our competition today!</p>
                 </div>
                 <div className="mt-4">
-                  <a href='https://forms.gle/sTNfdyiKaqm8WruS8' target='_blank' className="main-btn">Register Now</a>
+                  <a href='https://forms.gle/933npN97Gxk1BAhN6' target='_blank' className="main-btn">Register Now</a>
 
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Itec = () => {
                   <img src={ele.image} className="card-img-top" alt="..." />
 
                   <div className='text-center'>
-                    <a className='main-btn text-decoration-none' href='https://forms.gle/sTNfdyiKaqm8WruS8' target='_blank'> Register Now </a>
+                    <a className='main-btn text-decoration-none' href='https://forms.gle/933npN97Gxk1BAhN6' target='_blank'> Register Now </a>
                   </div>
 
                 </div>
@@ -91,16 +91,10 @@ const Itec = () => {
                   <img src={ele.image} className="card-img-top" style={{height:'530px'}} alt="..." />
                 </div>
               </div>
-
-
             )
           })}
 
         </div>
-
-
-
-
 
       </div>
 
@@ -112,28 +106,14 @@ const Itec = () => {
               <div key={ele.id} className="col-lg-4 col-md-10 col-sm-10 offset-md-1">
                 <div className="card mt-5 p-4 mx-auto manon ">
                   <img src={ele.image} className="card-img-top" alt="..." />
-
-
                 </div>
               </div>
-
-
             )
           })}
 
         </div>
 
-
-
-
-
       </div>
-
-
-
-
-
-
       <div className='sponsor_section mt-5 w-100'>
         <h1 className='text-center' >Sponsors</h1>
         <div className="row">
@@ -141,8 +121,6 @@ const Itec = () => {
             return (
               <div >
                 <section className='container' >
-
-
                   <div class="about-pg-boxes container-fluid">
                     <div className="row">
 
