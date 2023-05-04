@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link style={{color:"black"}} className={ location.pathname=='/team'?'nav-link active':'nav-link'} to='/team'>Team</Link>
           </li>
           <li className="nav-item">
-            <Link style={{color:"black"}} className={ location.pathname=='/itec'?'nav-link active':'nav-link'} to='/itec'>Events</Link>
+            <Link style={{color:"black"}} className={ location.pathname=='/Event'?'nav-link active':'nav-link'} to='/Event'>Events</Link>
           </li>
           <li className="nav-item">
             <Link style={{color:"black"}} className={ location.pathname=='/blog'?'nav-link active':'nav-link'} to='/blog'>Blog</Link>

@@ -81,7 +81,7 @@ function BlogPost1() {
         <h2>Essential Tips</h2>
         <ul>
           <li>Your app should be easy to navigate, visually appealing, and intuitive to use.</li>
-          <li> A well-planned app architecture can make your code more maintainable and scalable in the long run.</li>
+          <li> A well-planned app archEventture can make your code more maintainable and scalable in the long run.</li>
           <li>Slow app performance can lead to user frustration and lower engagement. Optimize your code and assets to ensure your app runs smoothly.</li>
           <li>est your app across different devices, platforms, and scenarios to ensure it works as expected for all users.</li>
         </ul>
