@@ -2,27 +2,25 @@ import React from "react";
 import "../styles/Card.css";
 import SingleCard from "./SingleCard";
 
-
-
 const detail = [
   {
-    name: "NAYEL HASHMI",
+    name: "RAKESH KUMAR",
     post: "President",
-    imageURL: "images/Directorate/p1.jpg",
+    imageURL: "images/Directorate/p1.jpeg",
   },
   {
-    name: "DUA SIDDIQUI",
-    post: "Vice President",
-    imageURL:"images/Directorate/p2.jpg"
+    name: "ALI AHSAN SAMNANI",
+    post: "MEMBER",
+    imageURL:"images/Directorate/p2.jpeg"
   },
   {
-    name: "M.ABDULLAH HAYAT",
-    post: "General Secretary",
-    imageURL:"images/Directorate/p3.jpg",
+    name: "BASIT ALI",
+    post: "MEMBER",
+    imageURL:"images/Directorate/p3.jpeg",
   },
   {
-    name: "MUHAMMMAD USMAN",
-    post: "Treasurer",
+    name: "ALI NADEEM",
+    post: "MEMBER",
     imageURL:"images/Directorate/p7.jpg",
   }
 ];

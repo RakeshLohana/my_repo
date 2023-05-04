@@ -28,8 +28,8 @@ export default function Carousel() {
         <h2>Welcome to our Coding Club </h2>
         <p>WE BELIVE IN INOVATION</p>
      
-        <Link to='/blog' className="btn btn-danger">Blog</Link>
-
+        {/* <Link to='/blog' className="btn btn-danger">Blog</Link> */}
+        <a href='' className='btn btn-danger'>JOIN OUR TEAM</a>
       </div>
     </div>
     <div className="carousel-item pickgradient">
